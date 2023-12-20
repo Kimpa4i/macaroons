@@ -1,0 +1,465 @@
+/*1024- 1170*/
+@media screen and (max-width: 1169px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+    .macaroons {
+        column-gap: 14px;
+    }
+}
+
+/*768-1023*/
+@media screen and (max-width: 1023px) {
+    .header__phone {
+        display: none;
+    }
+
+    .shop__container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    .shop {
+        padding: 150px 0 62px 0;
+    }
+
+
+    .shop__info-text {
+        margin-bottom: 41px;
+
+    }
+
+    .shop__img {
+        margin-left: 184px;
+        bottom: 74px;
+    }
+
+    .about__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__us {
+        max-width: 475px;
+        text-align: center;
+    }
+
+
+    .about__macaroons {
+        max-width: 665px;
+        text-align: center;
+        margin-bottom: 42px;
+    }
+
+    .about__img img {
+        width: 302px;
+        height: 183px;
+    }
+
+    .about__advantages {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(202px, 216px));
+        justify-items: center;
+        grid-gap: 85px 60px;
+        max-width: 486px;
+        margin: 0 auto;
+    }
+
+    .advantage {
+        text-align: center;
+    }
+
+    .advantage__number {
+        margin: 0 auto;
+    }
+
+    .macaroons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 555px;
+        grid-gap: 136px 30px;
+        margin: 0 auto;
+    }
+
+    .order__container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        position: relative;
+    }
+
+    .order__title {
+        margin-bottom: 41px;
+    }
+
+    .order__text {
+        max-width: 398px;
+    }
+
+    .order__img {
+        background-size: cover;
+        max-width: 332px;
+        height: 457px;
+        margin-right: 0;
+        position: relative;
+        bottom: -111px;
+        right: 77px;
+    }
+
+    .order__strawberry-left {
+        position: absolute;
+        top: 200px;
+        left: 370px;
+        animation: updown 3s infinite;
+    }
+
+    .order__strawberry-right {
+        position: absolute;
+        top: 100px;
+        left: 600px;
+        animation: updown 3s 1s infinite;
+    }
+
+
+    .footer__logo-block {
+        margin-bottom: 0;
+    }
+
+}
+
+/*425-767*/
+@media screen and (max-width: 767px) {
+
+    .header__container {
+        grid-template-columns: 112px 1fr;
+        grid-template-rows: 40px;
+        align-items: center;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        margin: 0;
+        background-color: rgb(0 0 0 / 96%);
+        z-index: 999;
+    }
+
+    .menu__list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .menu__item {
+        margin: 15px 0;
+    }
+
+    .burger {
+        display: block;
+        justify-self: end;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .burger__img {
+        width: 36px;
+        height: 36px;
+
+    }
+
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .menu .close {
+        display: block;
+    }
+
+
+    .menu .close svg {
+        width: 24px;
+        height: 24px;
+        fill: #821328;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .shop__container {
+        align-items: center;
+    }
+
+    .shop__info {
+        text-align: center;
+    }
+
+    .shop__info-text {
+        width: unset;
+    }
+
+
+    .shop__img {
+        margin-left: 0;
+        width: 205px;
+        height: 207px;
+        bottom: unset;
+    }
+
+    .shop__image {
+        width: 100%;
+    }
+
+    .shop__img-animation1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .shop__img-animation2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about__advantages {
+        grid-template-columns: repeat(2, 195px);
+        grid-gap: 41px 15px;
+        justify-content: space-between;
+
+    }
+
+    .advantage__description {
+    }
+
+    .macaroons {
+        grid-template-columns: 259px;
+        row-gap: 142px;
+        justify-content: center;
+    }
+
+    .assortment__text {
+        font-size: 30px;
+        font-family: "Tavolga", sans-serif;
+        color: rgb(255, 255, 255);
+        line-height: 1.833;
+        text-align: center;
+        font-weight: 400;
+    }
+
+
+    .order__container {
+        flex-direction: unset;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .order__img {
+        display: none;
+    }
+
+    .order__strawberry-right {
+        display: none;
+    }
+
+    .order__strawberry-left {
+        top: 151px;
+        left: 322px;
+    }
+
+
+    .input {
+        width: unset;
+    }
+
+    .order__button {
+        padding: 22px;
+        width: 100%;
+    }
+
+    .footer {
+        padding: 50px 0 110px 0;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .footer__logo {
+        text-align: center;
+    }
+
+    .footer__rights {
+        position: relative;
+        top: 175px
+    }
+
+
+    .footer__logo-block {
+        order: 1;
+        margin-bottom: 3px;
+    }
+
+    .footer__insta {
+        order: 3;
+    }
+
+    .phone {
+        order: 2;
+        margin-bottom: 40px;
+    }
+
+}
+
+/*375-424*/
+@media screen and (max-width: 424px) {
+
+    .main-image {
+        width: 100%;
+    }
+
+    .shop__info-title {
+        font-size: 32px;
+        font-family: "Tavolga";
+        color: rgb(255, 255, 255);
+        line-height: 1.25;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .about {
+        padding: 119px 0 100px 0;
+
+    }
+
+    .about__us {
+        font-size: 30px;
+        font-family: "Tavolga", sans-serif;
+        color: rgb(51, 25, 7);
+        line-height: 1.167;
+        text-align: center;
+        margin-bottom: 39px;
+    }
+
+    .about__macaroons {
+        font-size: 16px;
+        color: rgb(51, 25, 7);
+        line-height: 1.437;
+        text-align: center;
+        margin-bottom: 61px;
+    }
+
+    .about-info {
+        margin-bottom: 61px;
+    }
+
+    .about__advantages {
+        grid-template-columns: 165px 165px;
+        grid-gap: 40px 15px;
+    }
+
+
+    .advantage__title {
+        font-size: 18px;
+        color: rgb(51, 25, 7);
+        line-height: 2.496;
+        text-align: center;
+
+    }
+
+    .advantage__description {
+        font-size: 13px;
+        color: rgb(51, 25, 7);
+        line-height: 1.385;
+        text-align: center;
+    }
+
+
+    .assortment {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+
+    .order {
+        padding: 100px 0 77px 0;
+    }
+
+    .order__title {
+        font-size: 30px;
+        font-family: "Tavolga", sans-serif;
+        color: rgb(51, 25, 7);
+        line-height: 1.167;
+        text-align: left;
+        margin-bottom: 43px;
+
+    }
+
+    .order__text {
+        font-size: 16px;
+        color: rgb(51, 25, 7);
+        line-height: 1.437;
+        text-align: left;
+    }
+
+
+    .order__strawberry-left {
+        top: 141px;
+        left: 269px;
+    }
+}
+
+/*320-374*/
+@media screen and (max-width: 374px) {
+
+    .about__advantages {
+        grid-template-columns: 1fr;
+        column-gap: 30px
+    }
+
+    .advantage__title {
+        font-size: 18px;
+        color: rgb(51, 25, 7);
+        line-height: 2.496;
+        text-align: center;
+
+    }
+
+    .advantage__description {
+        font-size: 13px;
+        color: rgb(51, 25, 7);
+        line-height: 1.385;
+        text-align: center;
+    }
+
+    .order__strawberry-left {
+        top: 141px;
+        left: 239px;
+    }
+}
+
+
+
